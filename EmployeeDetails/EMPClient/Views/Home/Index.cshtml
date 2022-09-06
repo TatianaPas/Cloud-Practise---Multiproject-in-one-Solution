@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">EMPClient</h1>
+  
+</div>
+
+<form method="post" action="https://localhost:7221/EmpployeeClient/Login">
+    
+    <label>Enter user ID</label>
+    <input type="text" name="userid" id="userid"/>
+
+     <label>Enter user ID</label>
+    <input type="password" name="password" id="password"/>
+
+     <label>Json</label>
+    <textarea name="strjson" id="strjson"></textarea>
+
+    <input type="submit" value="send"/>
+
+
+</form>
